@@ -32,9 +32,43 @@
 //console.log (typeof(answers));
 //console.log (typeof(null));
 
-const user = 'Ivan'
+//const user = 'Ivan';
 
-alert(`Привет, ${user}`)
+//alert (`Hello, ${user}`);
+
+//console.log('arr' + ' - object');
+//.log(4 + +'5');
+
+// incr = 10,
+	//decr = 10;
+	
+//++incr;
+//--decr;
+
+//console.log (++incr);
+//.log (--decr);
+
+//console.log (5%2);
+
+//console.log (2*4 === '8');
 
 
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
+const personalMovieDB = {
+	count: numberOfFilms,
+	movies: {},
+	actors: {},
+	genres: {},
+	privar: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+	  b = prompt('На сколько оцените его?', ''),
+	  c = prompt('Один из последних просмотренных фильмов?', ''),
+	  d = prompt('На сколько оцените его?', '');
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log (personalMovieDB);
