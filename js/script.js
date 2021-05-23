@@ -1,57 +1,5 @@
 "use strict";
 
-
-
-//const obj = {
-	//name: 'John',
-///age: 25,
-	//isMarried: false
-//};
-
-// console.log(obj.name);
-
-// console.log(obj["name"]);
-
-//let arr = ['plum.png', 'prange.jpg', 'apple.bmp'];
-// console.log(arr[0]);
-
-//alert('Hello');
-
-//const result = confirm(' Are you here');
-//console.log (result);
-
-// const answer = +prompt('Вам есть 18?', '18');
-// console.log (answer + 5);
-
-//const answers = [];
-
-// answers[0] = prompt('Как ваше имя?', '');
-// answers[1] = prompt('Как ваша Фамилия?', '');
-// answers[2] = prompt('Сколько вам лет?', '');
-
-//console.log (typeof(answers));
-//console.log (typeof(null));
-
-//const user = 'Ivan';
-//alert (`Hello, ${user}`);
-
-//console.log('arr' + ' - object');
-//.log(4 + +'5');
-
-// incr = 10,
-	//decr = 10;
-	
-//++incr;
-//--decr;
-
-//console.log (++incr);
-//.log (--decr);
-
-//console.log (5%2);
-
-//console.log (2*4 === '8');
-
-
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
@@ -87,3 +35,59 @@ if (personalMovieDB.count < 10) {
 }
 
 console.log (personalMovieDB);
+
+function showFirstMessage() {
+	console.log("Hello world");
+}
+
+showFirstMessage();
+
+//function calc (a, b){
+//	return (a + b);
+//}
+
+//console.log(calc(4, 3));
+//console.log(calc(5, 6));
+//console.log(calc(7, 8));
+//console.log(calc(9, 10));
+
+function ret () {
+	let num = 50;
+	return num;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+const logger = function() {
+	console.log("Hello");
+};
+
+logger();
+
+const calc = (a, b) => a + b;
+
+const str = "tesr";
+
+// console.log(str[2]);
+
+console.log(str.toUpperCase());
+console.log(str);
+
+const fruit = "Some fruit";
+console.log(fruit.indexOf("fruit"));
+
+const logg = "Hello World";
+
+console.log(logg.slice(6, 11));
+
+console.log(logg.substring(6, 11));
+
+console.log(logg.substr(6, 5));
+
+const number = 12.2;
+console.log(Math.round(number));
+
+const testing = "12.2px";
+console.log(parseInt(testing));
+console.log(parseFloat(testing));
