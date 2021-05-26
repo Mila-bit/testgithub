@@ -62,3 +62,40 @@ for (let i = 1; i < 10; i++) {
     }
     console.log(i);
 }
+
+//примеры цикла 
+
+/*Способ 1 функция
+function questions () {
+	let nameOfFilm = prompt('Один из последних просмотренных фильмов?', '');
+	personalMovieDB.movies[nameOfFilm] = prompt('На сколько вы его оцените', '');
+
+}
+questions();
+questions();*/
+
+/*способ 2 цикл for
+for (let i = 1; i < 3; i++) {
+	let nameOfFilm = prompt('Один из последних просмотренных фильмов?', '');
+	personalMovieDB.movies[nameOfFilm] = prompt('На сколько вы его оцените', '');
+}*/
+
+
+/* cпособ 3 цикл whole
+let i = 1;
+while (i < 3) {
+	let nameOfFilm = prompt('Один из последних просмотренных фильмов?', '');
+	personalMovieDB.movies[nameOfFilm] = prompt('На сколько вы его оцените', '');
+	i++;
+}*/
+
+/*cпособ 4 цикл do...while
+let i = 1;
+
+do {
+	let nameOfFilm = prompt('Один из последних просмотренных фильмов?', '');
+	personalMovieDB.movies[nameOfFilm] = prompt('На сколько вы его оцените', '');
+	i++;
+} while ( i < 3);*/
+
+//console.log(personalMovieDB);

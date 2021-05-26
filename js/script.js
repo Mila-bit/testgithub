@@ -21,4 +21,14 @@ for (let i = 1; i < 3; i++) {
 	personalMovieDB.movies[a] = b;
 }
 
+if (personalMovieDB.count < 10 ) {
+	alert('Просмотрено довольно мало фильмов');
+} else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+	alert('Вы классический зритель');
+} else if (personalMovieDB.count >= 30) {
+	alert('Вы киноман');
+} else {
+	alert('Произошла ошибка')
+}
+
 console.log(personalMovieDB);
