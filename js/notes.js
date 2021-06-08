@@ -99,3 +99,27 @@ do {
 } while ( i < 3);*/
 
 //console.log(personalMovieDB);
+
+function caclc(a, b) {
+    return(a + b);
+}
+
+console.log(caclc(4, 3));
+console.log(caclc(5, 3));
+
+function ret() {
+    let num = 50;
+    return num;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+const logger = function() {
+    console.log('Hello');
+};
+
+logger();
+
+const calc = (a, b) => { return a + b };
+console.log(calc(1, 1));
