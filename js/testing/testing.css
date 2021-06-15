@@ -1,0 +1,14 @@
+.parent, .something {
+    display: flex;
+    justify-content: center;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rebeccapurple;
+    border-radius: 100px;
+}
